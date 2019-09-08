@@ -23,7 +23,7 @@
       "variables": [
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "${env.AzureSphereDefaultSDKDir}CMakeFiles\\AzureSphereRTCoreToolchain.cmake"
+          "value": "${env.AzureSphereDefaultSDKDir}CMakeFiles\\AzureSphereRTCoreToolchainVFP.cmake"
         },
         {
           "name": "AZURE_SPHERE_TARGET_APPLICATION_RUNTIME_VERSION",
@@ -54,7 +54,7 @@
       "variables": [
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "${env.AzureSphereDefaultSDKDir}CMakeFiles\\AzureSphereRTCoreToolchain.cmake"
+          "value": "${env.AzureSphereDefaultSDKDir}CMakeFiles\\AzureSphereRTCoreToolchainVFP.cmake"
         },
         {
           "name": "AZURE_SPHERE_TARGET_APPLICATION_RUNTIME_VERSION",
