@@ -45,5 +45,9 @@ SECTIONS
         *(.bss)
     } >BSS_REGION
 
+	.freertosheap : {
+		*(.freertosheap)
+	} >SYSRAM
+
     StackTop = ORIGIN(TCM) + LENGTH(TCM);
 }
