@@ -23,9 +23,9 @@ git clone https://github.com/xiongyu0523/azure-sphere-rtcore-freertos.git
    WriteReg32(IO_CM4_RGU, 0, val);
    ```
    
-2. Reuse the official GCC Cortex-M4F port, need modify the gcc compiler flag to use FPU instructions. Open the *AzureSphereRTCoreToolchain.cmake* file (with administrator privilege) in Azure Sphere SDK install folder. (Default is *C:\Program Files (x86)\Microsoft Azure Sphere SDK\CMakeFiles*)
+2. To reuse the official GCC Cortex-M4F port, need modify the gcc compiler flag to use FPU instructions. Just copy the *AzureSphereRTCoreToolchainVFP.cmake* file into the Azure Sphere SDK install folder. (Default path is *C:\Program Files (x86)\Microsoft Azure Sphere SDK\CMakeFiles*)
 
-    Replace line 45:
+    The underlayer work is to replace line 45:
 
     `SET(CMAKE_C_FLAGS_INIT "-mcpu=cortex-m4")`
 
