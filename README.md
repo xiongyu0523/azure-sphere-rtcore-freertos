@@ -73,3 +73,5 @@ git clone https://github.com/xiongyu0523/azure-sphere-rtcore-freertos.git
 4. In Solution Explorer, right-click the CMakeLists.txt file, and select **Generate Cache for Azure_Sphere_RTcore_FreeRTOS**. This step performs the cmake build process to generate the native ninja build files. 
 5. In Solution Explorer, right-click the *CMakeLists.txt* file, and select **Build** to build the project and generate .imagepackage target.
 6. Double click *CMakeLists.txt* file and press F5 to start the application with debugging. LED1 will blink red. Press button A to change the blink rate.
+7. The demo will print message "FreeRTOS demo" after boot via IO0_TXD (Header3-6) and receive input from ISU0_RXD (Header2-1). Once a character is received, Azure Sphere will print to terminal through IO0_TXD. 
+8. Demo timing is measured by LA. Perfect 125ms / 250ms / 500ms square wave can be observed on GPIO0 (Header1-4)
