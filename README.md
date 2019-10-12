@@ -54,7 +54,7 @@ git clone https://github.com/xiongyu0523/azure-sphere-rtcore-freertos.git
 ### Prep your device
 
 1. Ensure that your Azure Sphere device is connected to your PC, and your PC is connected to the internet.
-2. Even if you've performed this set up previously, ensure that you have Azure Sphere SDK version 19.05 or above. In an Azure Sphere Developer Command Prompt, run **azsphere show-version** to check. Download and install the [latest SDK](https://aka.ms/AzureSphereSDKDownload) as needed.
+2. Even if you've performed this set up previously, ensure that you have Azure Sphere SDK version 19.09. In an Azure Sphere Developer Command Prompt, run **azsphere show-version** to check. Download and install the [latest SDK](https://aka.ms/AzureSphereSDKDownload) as needed.
 3. Right-click the Azure Sphere Developer Command Prompt shortcut and select **More > Run as administrator**.
 4. At the command prompt issue the following command:
 
